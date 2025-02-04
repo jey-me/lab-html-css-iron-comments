@@ -1,11 +1,47 @@
-body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#form-container {
-    margin: auto;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(25, 33, 41);
+  color: rgb(255, 255, 255);
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  padding-right: 50px;
+  width: 250px;
+  border: 3px solid rgb(67, 163, 230);
+}
+
+textarea, input {
+    width: 100%;
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 2px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+label, textarea, input {
+    margin: 5px 0;
+}
+
+button {
+  background-color: rgb(67, 163, 230);
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  padding: 8px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  margin-top: 5px;
 }
